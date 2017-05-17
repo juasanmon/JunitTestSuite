@@ -30,3 +30,11 @@ java -cp /home/alumnado/jars/*:. MathTest.java
 
 Y por último el test:
 java -cp /home/alumnado/jars/*:. JunitTestSuite.java
+
+
+Dando como resultado:
+$ java -cp /home/alumnado/jars/*:. org.junit.runner.JUnitCore  MathTest
+
+Con esto nos permite ejecutar dos clases a la vez:
+$ javac -cp /home/alumnado/jars/*:.  MathJunitTestSuite.java
+
